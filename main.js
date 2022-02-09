@@ -25,6 +25,10 @@ let storyText = "It was 94 fahrenheit outside, so :insertx: went for a walk. Whe
      let yItem = randomValueFromArray(inserty);
      let zItem = randomValueFromArray(insertz);
 
+     newStory = newStory.replaceAll(":insertx:", xItem);
+     newStory = newStory.replaceAll(":inserty:", yItem);
+     newStory = newStory.replaceAll(":insertz:", zItem);
+
 
      if(customName.value !== "") {
          const name = customName.value;
