@@ -1,6 +1,6 @@
 const customName = document.getElementById('custom_name');
 const randomize = document.querySelector('.randomize');
-const story = document.querySelectory('.story');
+const story = document.querySelector('.story');
 
 function randomValueFromArray(array){
     const random = Math.floor(Math.random() * array.length);
