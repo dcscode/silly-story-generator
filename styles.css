@@ -17,8 +17,8 @@ body {
   }
 
   p {
-    background: #FFC125;
-    color: #5E2612;
+    background: lightcoral;
+    color: #240f07;
     padding: 10px;
     visibility: hidden;
   }
